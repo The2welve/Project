@@ -21,5 +21,5 @@ p::-moz-selection {
 document.getElementById('rezultat').innerHTML = "Задания выполнены верно на "+procent_vip+"%.";           - выведение кол-во процентов ответа
   
   
-  <img src="https://e7.pngegg.com/pngimages/662/736/png-clipart-football-player-american-football-football-sport-logo.png" alt="" />                 -   картинка
-  <img src="https://cde.ugtu.net/moodle/pluginfile.php/179106/course/overviewfiles/analiz-konkurentov-1.jpg" alt="" />                               -   картинка
+  ##<img src="https://e7.pngegg.com/pngimages/662/736/png-clipart-football-player-american-football-football-sport-logo.png" alt="" />  ##               -   картинка
+  ##<img src="https://cde.ugtu.net/moodle/pluginfile.php/179106/course/overviewfiles/analiz-konkurentov-1.jpg" alt="" />  ##                             -   картинка
