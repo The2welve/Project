@@ -1,0 +1,118 @@
+<html>
+<head><title>Короткий Тест</title>
+<style>
+p {
+	font-size:24px;
+}
+input {
+	font-size:24px;
+}
+p::selection {
+   background: transparent;
+}
+p::-moz-selection {
+   background: transparent;
+}
+</style>
+</head>
+<body style="background-color:#d9ffd6;">
+<img src="https://cde.ugtu.net/moodle/pluginfile.php/179106/course/overviewfiles/analiz-konkurentov-1.jpg" alt="" />
+<h1 style ="position: relative; text-align:center;">Добро Пожаловать</h1>
+<h2 style ="position: relative; text-align:center;">Сайт создан в качестве проекта</h2>
+<h3 style ="position: relative; text-align:center;">В тесте будут некоторые варианты ответа, вы должны только ответить цифру с правильным ответом,</h3>
+<h3 style ="position: relative; text-align:center;">а после теста вы увидите познавательную информацию, желательно к прочтению!</h3>
+<h3 style ="position: relative; text-align:center;">в некоторых заданиях вы должны будете отвечать сами, так что не переживайте &#128517;</h3>
+<h3 style ="position: relative; text-align:center;"><a href="https://webriz.ru/">взаимстовал идеи с этого сайта</a></h3>
+<p style ="position: relative; left: 3%; width: 97%;"> Выполните задания теста:</p>
+<h3>Задания - A</h3>
+<p style ="position: relative; left: 3%; width: 97%;">4*12 + 7 = <input type="text" id="z_1"></p>
+<p style ="position: relative; left: 3%; width: 97%;">7-8*2 = <input type="text" id="z_2"></p>
+<p style ="position: relative; left: 3%; width: 97%;">34*2 + 17 =  <input type="text" id="z_3"></p>
+<p style ="position: relative; left: 3%; width: 97%;">444 + х = 666 (чему равно число x)<input type="text" id="z_4"></p>
+<p style ="position: relative; left: 3%; width: 97%;">Сколько корней имеют квадратные уравнения:x2 − 8x + 12 = 0<input type="text" id="z_5"></p>
+<h3>Задания - B</h3>
+<p style ="position: relative; left: 3%; width: 97%;">Правила об этом виде специальных ударов в футболе приняли в 1891 году(1 - штрафной удар, 2 - пенальти, 3 - угловой удар<input type="text" id="z_6"></p>
+<p style ="position: relative; left: 3%; width: 97%;">Название страны, которой присвоен статус – родина хоккея на льду?(1 - Россия, 2 - Швеция, 3 - Канада, 4 - Финляндия)<input type="text" id="z_7"></p>
+<p style ="position: relative; left: 3%; width: 97%;">По сколько человек от каждой команды может одновременно находиться на игровой площадке?( 1 - по 7, 2 - по 5, 3 - по 9, 4 - по 11 в каждой команде)<input type="text" id="z_8"></p>
+<p style ="position: relative; left: 3%; width: 97%;">Из какого материала готовились первые хоккейные шайбы?(1 - дерево, 2 - резина, 3 - пластик, 4 - уголь)<input type="text" id="z_9"></p>
+<p style ="position: relative; left: 3%; width: 97%;">Кто из футболистов утверждал, что "играть надо ногами, а думать – головой"(1 - Пеле, 2 - Месси, 3 - Неймар)<input type="text" id="z_10"></p>
+<button onClick="proverit();" ;style ="position: relative; left: 3%; width: 97%;">Проверить</button>
+<div id="rezultat"></div>
+<h3>В футболе игроки ведут мяч только ногами. Разрешается также принимать удары головой или грудью, но не руками. Брать мяч в руки разрешается голкиперу после забитого гола или игроку при вбрасывании мяча. Удары по мячу могут быть свободными, угловыми, штрафными, от ворот.</h3>
+<a>Футбол – одна из любимейших спортивных игр всего мира. Современные правила футбола приняты Международным Советом Футбольных Ассоциаций (IFAB) в 1998 году и с тех пор лишь подвергаются незначительным изменениям.
+
+	Играют в футбол на специальной площадке – футбольном поле. Поле это имеет форму прямоугольника, его длина и ширина регламентируются правилами. Покрытие поля может быть естественным и искусственным. В качестве естественного покрытия футбольного поля используется специальная трава. Искусственным покрытием служит «ковер» из синтетического материала зеленого цвета.
+	
+	Футбольный матч состоит из двух таймов по 45 минут, между которыми есть перерыв, не превышающий 15 минут. 90 минут матча называются основным игровым временем. В основное время засчитываются и всевозможные задержки, связанные с нарушениями правил игры или травмами игроков.
+	
+	По окончанию основного игрового времени рефери (футбольный судья) может назначить добавленное время, чтобы скомпенсировать потери во время основного времени.
+	
+	Основной состав каждой команды включает 11 человек. У каждого игрока могут быть свои функции: защитника (бэка), полузащитника (хавбэка), нападающего (форварда). Отдельно выделяется вратарь (голкипер) – игрок, защищающий ворота. Форма вратаря отличается от формы остальных игроков обеих команд и от формы судей матча.
+	
+	Во время матча каждая команда имеет право заменить любого из своих игроков запасным. В международных матчах или матчах национальных федераций максимальное число замен равно трем, в матчах национальных лиг – не более 6.
+	
+	Замена игрока разрешается во время остановки игры, только со средней линии поля (линии, которая делит поле пополам). Список игроков замены команды должны предоставить судье до начала матча.
+	
+	Главная задача команды – забить гол противнику и защитить свои ворота от голов. Если команда забивает гол в собственные ворота, то такой гол называется автоголом. Автогол, за исключением некоторых случаев, предусмотренных Правилами, засчитывается.</a>
+<h3>Спасибо за прочтение</h3>
+<img src="https://e7.pngegg.com/pngimages/662/736/png-clipart-football-player-american-football-football-sport-logo.png" alt="" />
+<script>
+function proverit(){
+pr_otv_zadachi_1 = 55; 
+pr_otv_zadachi_2 = -9;
+pr_otv_zadachi_3 = 85;
+pr_otv_zadachi_4 = 222;
+pr_otv_zadachi_5 = 2;
+pr_otv_zadachi_6 = 2;
+pr_otv_zadachi_7 = 3;
+pr_otv_zadachi_8 = 2;
+pr_otv_zadachi_9 = 1;
+pr_otv_zadachi_10 = 1;
+otv_uch_1 = document.getElementById('z_1').value;
+otv_uch_2 = document.getElementById('z_2').value;
+otv_uch_3 = document.getElementById('z_3').value;
+otv_uch_4 = document.getElementById('z_4').value;
+otv_uch_5 = document.getElementById('z_5').value;
+otv_uch_6 = document.getElementById('z_6').value;
+otv_uch_7 = document.getElementById('z_7').value;
+otv_uch_8 = document.getElementById('z_8').value;
+otv_uch_9 = document.getElementById('z_9').value;
+otv_uch_10 = document.getElementById('z_10').value;
+ball = 0;
+if(otv_uch_1 == pr_otv_zadachi_1){
+ball +=1;
+}
+if(otv_uch_2 == pr_otv_zadachi_2){
+ball +=1;
+}
+if(otv_uch_3 == pr_otv_zadachi_3){
+ball +=1;
+}
+if(otv_uch_4 == pr_otv_zadachi_4){
+ball +=1;
+}
+if(otv_uch_5 == pr_otv_zadachi_5){
+ball +=1;
+}
+if(otv_uch_6 == pr_otv_zadachi_6){
+ball +=1;
+}
+if(otv_uch_7 == pr_otv_zadachi_7){
+ball +=1;
+}
+if(otv_uch_8 == pr_otv_zadachi_8){
+ball +=1;
+}
+if(otv_uch_9 == pr_otv_zadachi_9){
+ball +=1;
+}
+if(otv_uch_10 == pr_otv_zadachi_10){
+ball +=1;
+}
+vsego_zadach = 10;
+procent_vip = ball/vsego_zadach * 100;
+document.getElementById('rezultat').innerHTML = "Задания выполнены верно на "+procent_vip+"%.";
+}
+</script>
+</body>
+</html>
